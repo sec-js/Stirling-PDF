@@ -26,7 +26,7 @@ public class SPdfApplicationTest {
 
     @Mock
     private ApplicationProperties applicationProperties;
-    
+
     @InjectMocks
     private SPdfApplication sPdfApplication;
 

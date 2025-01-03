@@ -22,9 +22,9 @@
                         <span id="currentVersion" th:text="${@appVersion}"></span>
                     </div>
 
-					<div class="alert alert-warning" role="alert">
-					    <span th:text="#{releases.note}">All release notes are only available in English</span>
-					</div>
+          <div class="alert alert-warning" role="alert">
+              <span th:text="#{releases.note}">All release notes are only available in English</span>
+          </div>
 
                     <div id="loading" class="text-center my-4">
                         <div class="spinner-border text-primary" role="status">
@@ -113,9 +113,9 @@
     const REPO_OWNER = 'Stirling-Tools';
     const REPO_NAME = 'Stirling-PDF';
     const GITHUB_API = 'https://api.github.com/repos/' + REPO_OWNER + '/' + REPO_NAME;
-	const GITHUB_URL = 'https://github.com/' + REPO_OWNER + '/' + REPO_NAME;
-	const MAX_RELEASES = 8;
-	
+  const GITHUB_URL = 'https://github.com/' + REPO_OWNER + '/' + REPO_NAME;
+  const MAX_RELEASES = 8;
+  
     // Secure element creation helper
     function createElement(tag, attributes = {}, children = []) {
         const element = document.createElement(tag);
@@ -134,7 +134,7 @@
         return element;
     }
 
-	
+  
     const ALLOWED_TAGS = {
         'a': ['href', 'target', 'rel', 'class'],
         'img': ['src', 'alt', 'width', 'height', 'style'],
