@@ -21,9 +21,11 @@ pipeline/finishedFolders/
 customFiles/
 configs/
 watchedFolders/
+clientWebUI/
 !cucumber/
 !cucumber/exampleFiles/
 !cucumber/exampleFiles/example_html.zip
+exampleYmlFiles/stirling/
 
 # Gradle
 .gradle
@@ -138,6 +140,7 @@ venv.bak/
 # VS Code
 /.vscode/**/*
 !/.vscode/settings.json
+!/.vscode/extensions.json
 
 # IntelliJ IDEA
 .idea/
